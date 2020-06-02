@@ -1,0 +1,137 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+  * CUSTOM STYLES 
+  */
+body {
+    background-color: black;
+}
+
+/* Nav */
+
+nav {
+    margin-top: 20px;
+}
+
+.nav-color {
+    color: red;
+}
+
+div.container ul {
+    margin: auto;
+    padding-left: 0;
+    list-style: none;
+}
+div.container ul a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Nav 2 streamerCard */
+
+div.flexAccueil {
+    display: flex;
+}
+
+div.streamer img {
+    margin-top: 15px;
+    border: 1px solid transparent;
+    border-radius: 10%;
+}
+
+div.streamer {
+    margin-left: 15px;
+    padding-left: 5px;
+    transition: all 0, 4s;
+}
+
+div.streamer:hover {
+    background-color: black;
+    box-shadow: 2px 11px 36px -16px rgba(0, 0, 300, 0.75);
+    transform: translateY(-5px);
+    transform: scale(2);
+}
+
+div.streamer a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.streamer p.user_name {
+    color: red;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ////////////////////////
+  ///////////////
+  ///////// FIN DE PARTIE NAV */
+
+div.card-deck {
+    margin: 100px auto 30px auto;
+}
+
+div.card {
+    background-color: black;
+    min-width: 147px;
+}
+
+div.card-deck img {
+    margin: auto;
+    object-fit: contain;
+}
+
+div.image {
+    width: 147px;
+    height: 230px;
+    img {
+        width: 147px;
+        height: 230px;
+    }
+}
+
+div.card-body {
+    background-color: #ffffff;
+}
+
+div.card-deck div.titre {
+    margin: auto;
+    display: none;
+}
+
+div.card-deck div.card div.card-body {
+    margin: auto !important;
+    padding: 0 !important;
+    display: none;
+}
+
+div.card-deck div.card div.card-footer {
+    background-color: #fff;
+    display: none;
+}
+
+/* HOVER */
+
+div.card-deck img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    cursor: pointer;
+}

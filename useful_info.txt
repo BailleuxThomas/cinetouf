@@ -1,0 +1,5 @@
+  const [state, setState] = useState(true);
+
+  const _handleClick = useCallback(() => setState(!state), [state]);
+
+  return <button onClick={_handleClick}></button>;
