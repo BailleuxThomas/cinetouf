@@ -8,4 +8,5 @@ export const streamers = [
   "leroidelatouf",
   "tfblade",
   "jiahaotv",
+  "zerator",
 ];
