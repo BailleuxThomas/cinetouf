@@ -35,10 +35,16 @@ const StreamerCard = ({ streamerName }) => {
     </div>
   ) : (
     <div>
-      <Button className="button_refresh" onClick={_handleClick}>
+      <Button
+        style={{ display: "none" }}
+        className="button_refresh"
+        onClick={_handleClick}
+      >
         Refresh
       </Button>
-      <div className="StreamerNameOff">{streamerName} is offline</div>
+      <div style={{ display: "none" }} className="StreamerNameOff">
+        {streamerName} is offline
+      </div>
     </div>
   );
 };
