@@ -1,12 +1,1 @@
-export const streamers = [
-  "davidp",
-  "sardoche",
-  "solary",
-  "flashshad0w",
-  "sixentv",
-  "weesie",
-  "leroidelatouf",
-  "tfblade",
-  "jiahaotv",
-  "zerator",
-];
+export const streamers = ["davidp", "sardoche", "tfblade", "flachony"];
