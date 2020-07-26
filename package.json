@@ -22,8 +22,7 @@
     "build": "react-scripts build",
     "postbuild": "rimraf build/**/*.map",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION = false npm install --prefix client && npm run build --prefix client"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
