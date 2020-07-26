@@ -38,7 +38,7 @@ const StreamerCard = ({ streamerName }) => {
       <Button className="button_refresh" onClick={_handleClick}>
         Refresh
       </Button>
-      <div>{streamerName} is offline</div>
+      <div className="StreamerNameOff">{streamerName} is offline</div>
     </div>
   );
 };

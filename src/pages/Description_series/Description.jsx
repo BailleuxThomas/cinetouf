@@ -15,7 +15,12 @@ const Description_serie = () => {
     return <RedirectAs404 />;
   }
   return (
-    <Container>
+    <Container
+      style={{
+        marginTop: "75px",
+        // boxShadow: "0px 20px 50px rgba(59, 43, 91, 0.7)",
+      }}
+    >
       <Row>
         <Col>
           <iframe

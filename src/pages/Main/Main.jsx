@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Badge } from "react-bootstrap";
-import RiotGame from "../../components/atoms/RiotGame";
 
 const Main = () => {
   return (
@@ -14,6 +13,10 @@ const Main = () => {
             Ici tu trouveras des films, des séries que j'ai visionné ainsi que
             ma cote, des streamers que j'aime regarder et peut être d'autre
             truc.
+          </p>
+
+          <p style={{ margin: "15px 0", color: "yellow" }}>
+            Mon site n'est pas encore responsive
           </p>
         </Col>
         <Col></Col>
