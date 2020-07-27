@@ -39,12 +39,12 @@ const Description_films = () => {
       </Row>
       <Row>
         <Col>
-          <h2 style={{ color: "yellow", size: "70px" }}>{movie.nom}</h2>
+          <h2 style={{ color: "white", size: "70px" }}>{movie.nom}</h2>
           <p style={{ color: "orange" }}>{movie.categorie}</p>
-          <p style={{ color: "yellow" }}>{movie.description}</p>
-          <p style={{ color: "yellow" }}>Réalisateur: {movie.realisateur}</p>
-          <p style={{ color: "yellow" }}>Ma propre évaluation: {movie.star}</p>
-          <p style={{ color: "yellow" }}>Date de sortie: {movie.exit_date}</p>
+          <p style={{ color: "white" }}>{movie.description}</p>
+          <p style={{ color: "white" }}>Réalisateur: {movie.realisateur}</p>
+          <p style={{ color: "white" }}>Ma propre évaluation: {movie.star}</p>
+          <p style={{ color: "white" }}>Date de sortie: {movie.exit_date}</p>
         </Col>
         <Col>
           <div>

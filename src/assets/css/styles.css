@@ -25,6 +25,9 @@ nav {
 .nav-color {
   color: red; }
 
+.nav-color2 {
+  color: yellow; }
+
 div.container ul {
   margin: auto;
   padding-left: 0;

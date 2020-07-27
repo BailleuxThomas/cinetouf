@@ -38,12 +38,12 @@ const Description_serie = () => {
       </Row>
       <Row>
         <Col>
-          <h2 style={{ color: "yellow", size: "70px" }}>{serie.nom}</h2>
+          <h2 style={{ color: "white", size: "70px" }}>{serie.nom}</h2>
           <p style={{ color: "orange" }}>{serie.categorie}</p>
-          <p style={{ color: "yellow" }}>{serie.description}</p>
-          <p style={{ color: "yellow" }}>Réalisateur: {serie.realisateur}</p>
-          <p style={{ color: "yellow" }}>Ma propre évaluation: {serie.star}</p>
-          <p style={{ color: "yellow" }}>Date de sortie: {serie.exit_date}</p>
+          <p style={{ color: "white" }}>{serie.description}</p>
+          <p style={{ color: "white" }}>Réalisateur: {serie.realisateur}</p>
+          <p style={{ color: "white" }}>Ma propre évaluation: {serie.star}</p>
+          <p style={{ color: "white" }}>Date de sortie: {serie.exit_date}</p>
         </Col>
         <Col>
           <div>
