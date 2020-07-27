@@ -1,1 +1,8 @@
-export const streamers = ["davidp", "sardoche", "tfblade", "flachony"];
+export const streamers = [
+  "davidp",
+  "sardoche",
+  "tfblade",
+  "flachony",
+  "SixenTv",
+  "peyjeym",
+];

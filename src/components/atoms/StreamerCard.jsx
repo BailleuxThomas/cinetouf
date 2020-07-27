@@ -23,8 +23,8 @@ const StreamerCard = ({ streamerName }) => {
       >
         <img
           src={streamerData.thumbnail_url
-            .replace("{width}", "165")
-            .replace("{height}", "105")}
+            .replace("{width}", "140")
+            .replace("{height}", "90")}
           alt="Joueur"
         />
         <p className="user_name">{streamerData.user_name}</p>

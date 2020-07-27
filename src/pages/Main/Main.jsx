@@ -33,7 +33,7 @@ const Main = () => {
             <p style={{ color: "cyan", margin: "10px 0" }}>
               Pourquoi ce type de projet ?
             </p>
-            <p>
+            <p style={{ color: "yellow" }}>
               C'est un projet qui me tient à cœur, beaucoup de mes amis me
               demandes toujours un film, série à conseiller, pourquoi pas faire
               un site, qui leur permettrait directement de choisir ce qu'ils
