@@ -83,10 +83,15 @@ div.streamer a {
 }
 
 div.streamer p.user_name {
+    font-size: 13px;
     color: red;
     font-weight: bold;
     margin: 0px;
     padding: 0px;
+}
+
+div.streamer p.user_viewer {
+    font-size: 13px;
 }
 
 div.StreamerNameOff {

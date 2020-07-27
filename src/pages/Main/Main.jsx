@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Badge } from "react-bootstrap";
-import Touftouf from "./bbq.mp4";
+import Touftouf from "./bbq_thomas.mp4";
 
 const Main = () => {
   return (
@@ -37,8 +37,8 @@ const Main = () => {
               C'est un projet qui me tient à cœur, beaucoup de mes amis me
               demandes toujours un film, série à conseiller, pourquoi pas faire
               un site, qui leur permettrait directement de choisir ce qu'ils
-              veulent... Et aussi parce que je recherche un emploi dans le
-              domaine de développeur, pour l'instant je travaille en tant que
+              veulent... Et aussi parce que je recherche un emploi en tant que
+              web développeur, pour l'instant je travaille en tant que
               préparateur de commande, mais ce n'est pas le boulot de mes rêves.
             </p>
           </Col>
