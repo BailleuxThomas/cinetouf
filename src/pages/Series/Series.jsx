@@ -18,13 +18,15 @@ const ContenuSerie = Listserie.map((article) => (
 
 const Series = () => {
   return (
-    <Container>
-      <Row>
-        <Col>
-          <CardDeck>{ContenuSerie}</CardDeck>
-        </Col>
-      </Row>
-    </Container>
+    <>
+      <Container>
+        <Row>
+          <Col>
+            <CardDeck>{ContenuSerie}</CardDeck>
+          </Col>
+        </Row>
+      </Container>
+    </>
   );
 };
 

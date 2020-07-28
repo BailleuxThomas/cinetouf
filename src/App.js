@@ -12,41 +12,46 @@ import Series from "./pages/Series/Series";
 import Description_film from "./pages/Description_films/Description";
 import Description_serie from "./pages/Description_series/Description";
 import Global404 from "./pages/404/Global404";
+import { HelmetProvider } from "react-helmet-async";
 
 const App = () => {
   return (
-    <Router>
-      <nav>
-        <Nav />
-      </nav>
-      <Route>
-        {({ location }) => {
-          if (location.state && location.state.is404) {
-            return <Global404 />;
-          }
+    <>
+      <HelmetProvider>
+        <Router>
+          <nav>
+            <Nav />
+          </nav>
+          <Route>
+            {({ location }) => {
+              if (location.state && location.state.is404) {
+                return <Global404 />;
+              }
 
-          return (
-            <Switch>
-              <Route exact path="/">
-                <Main />
-              </Route>
-              <Route exact path="/films/">
-                <Films />
-              </Route>
-              <Route exact path="/series/">
-                <Series />
-              </Route>
-              <Route exact path="/description_film/:movieId">
-                <Description_film />
-              </Route>
-              <Route exact path="/description_serie/:serieId">
-                <Description_serie />
-              </Route>
-            </Switch>
-          );
-        }}
-      </Route>
-    </Router>
+              return (
+                <Switch>
+                  <Route exact path="/">
+                    <Main />
+                  </Route>
+                  <Route exact path="/films/">
+                    <Films />
+                  </Route>
+                  <Route exact path="/series/">
+                    <Series />
+                  </Route>
+                  <Route exact path="/description_film/:movieId">
+                    <Description_film />
+                  </Route>
+                  <Route exact path="/description_serie/:serieId">
+                    <Description_serie />
+                  </Route>
+                </Switch>
+              );
+            }}
+          </Route>
+        </Router>
+      </HelmetProvider>
+    </>
   );
 };
 

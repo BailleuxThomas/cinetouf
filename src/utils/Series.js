@@ -1,5 +1,19 @@
 export const Listserie = [
   {
+    id: "ce4e47ae-5e0a-42c4-a61e-b0fb8d6c7b8b",
+    nom: "Ozark",
+    description:
+      "Marty blanchit de l'argent pour le compte d'un baron de la drogue. Lorsque son partenaire le trahit, il déménage avec sa famille aux monts Ozarks. Là-bas, il se retrouve opposé à un dealer local, à une bande de voyous et à un agent du FBI tenace.s",
+    image:
+      "https://www.badtaste.co.kr/wp-content/uploads/2020/06/poster-780.jpg",
+    alt: "Image du film",
+    youtube: "https://www.youtube.com/embed/pJlLLif3v9k",
+    categorie: "Drame",
+    star: "10/10",
+    exit_date: "2017",
+    realisateur: "/",
+  },
+  {
     id: "21200443-be36-4639-b890-c14ec10d4ad2",
     nom: "Breaking Bad",
     description:
@@ -323,18 +337,6 @@ export const Listserie = [
     exit_date: "2019",
     realisateur: "",
   },
-  // {
-  //   id: "",
-  //   nom: "",
-  //   description: "",
-  //   image: "",
-  //   alt: "Image du film",
-  //   youtube: "https://www.youtube.com/embed/",
-  //   categorie: "",
-  //   star: "",
-  //   exit_date: "",
-  //   realisateur: "",
-  // },
   // {
   //   id: "",
   //   nom: "",

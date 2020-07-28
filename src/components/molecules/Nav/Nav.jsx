@@ -15,7 +15,7 @@ const Nav = () => {
         <Row>
           <Col>
             <h2>
-              <strong className="nav-color">CINE</strong>{" "}
+              <strong className="nav-color">CINE</strong>
               <strong className="nav-color2">TOUF</strong>
             </h2>
           </Col>

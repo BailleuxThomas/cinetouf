@@ -1,10 +1,15 @@
 import React from "react";
 import { Container, Row, Col, Badge } from "react-bootstrap";
 import Touftouf from "./bbq_thomas.mp4";
+import { Helmet } from "react-helmet-async";
 
 const Main = () => {
   return (
     <>
+      <Helmet>
+        <title>CineTouf 🐷</title>
+        <link rel="icon" type="image/png" href="logo.png" />
+      </Helmet>
       <Container>
         <Row>
           <Col>
