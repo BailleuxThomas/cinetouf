@@ -47,7 +47,7 @@ const Main = () => {
               préparateur de commande, mais ce n'est pas le boulot de mes rêves.
             </p>
           </Col>
-          <Col>
+          <Col style={{ display: "flex-wrap" }}>
             <video
               autoPlay
               loop

@@ -128,3 +128,11 @@ div.card-deck img:hover {
   -webkit-box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   cursor: pointer; }
+
+/* FILM */
+img.Image_acteur {
+  width: 9vw;
+  height: 21vh;
+  margin: 10px 10px 10px 0px;
+  border: 1px solid transparent;
+  border-radius: 35%; }

@@ -31,7 +31,7 @@ const Description_films = () => {
           <Col>
             <iframe
               title={`Youtube vidéo of ${movie.nom}`}
-              width="940"
+              width="100%"
               height="528"
               src={movie.youtube}
               frameborder="0"
@@ -44,27 +44,17 @@ const Description_films = () => {
         </Row>
         <Row>
           <Col>
-            <h2 style={{ color: "white", fontSize: "5vw" }}>{movie.nom}</h2>
-            <p style={{ color: "orange", fontSize: "1.2vw" }}>
-              {movie.categorie}
-            </p>
-            <p style={{ color: "white", fontSize: "1.2vw" }}>
-              {movie.description}
-            </p>
-            <p style={{ color: "white", fontSize: "1.2vw" }}>
-              Réalisateur: {movie.realisateur}
-            </p>
-            <p style={{ color: "white", fontSize: "1.2vw" }}>
-              Ma propre évaluation: {movie.star}
-            </p>
-            <p style={{ color: "white", fontSize: "1.2vw" }}>
-              Date de sortie: {movie.exit_date}
-            </p>
+            <h2 style={{ color: "white" }}>{movie.nom}</h2>
+            <p style={{ color: "orange" }}>{movie.categorie}</p>
+            <p style={{ color: "white" }}>{movie.description}</p>
+            <p style={{ color: "white" }}>Réalisateur: {movie.realisateur}</p>
+            <p style={{ color: "white" }}>Ma propre évaluation: {movie.star}</p>
+            <p style={{ color: "white" }}>Date de sortie: {movie.exit_date}</p>
           </Col>
           <Col>
             <div>
               <img
-                style={{ width: "300px", margin: "0 0 0 70px" }}
+                style={{ width: "22vw", margin: "0 0 0 70px" }}
                 src={movie.image}
                 alt={movie.alt}
               />
@@ -75,57 +65,27 @@ const Description_films = () => {
           <Col>
             <div>
               <img
-                style={{
-                  width: "120px",
-                  height: "160px",
-                  margin: "10px 10px 10px 0",
-                  border: "1px solid transparent",
-                  borderRadius: "35%",
-                }}
+                className="Image_acteur"
                 src={movie.acteurs_image[0]}
                 alt={movie.acteurs_nom[0]}
               />
               <img
-                style={{
-                  width: "120px",
-                  height: "160px",
-                  margin: "10px 10px 10px 0",
-                  border: "1px solid transparent",
-                  borderRadius: "35%",
-                }}
+                className="Image_acteur"
                 src={movie.acteurs_image[1]}
                 alt={movie.acteurs_nom[1]}
               />
               <img
-                style={{
-                  width: "120px",
-                  height: "160px",
-                  margin: "10px 10px 10px 0",
-                  border: "1px solid transparent",
-                  borderRadius: "35%",
-                }}
+                className="Image_acteur"
                 src={movie.acteurs_image[2]}
                 alt={movie.acteurs_nom[2]}
               />
               <img
-                style={{
-                  width: "120px",
-                  height: "160px",
-                  margin: "10px 10px 10px 0",
-                  border: "1px solid transparent",
-                  borderRadius: "35%",
-                }}
+                className="Image_acteur"
                 src={movie.acteurs_image[3]}
                 alt={movie.acteurs_nom[3]}
               />
               <img
-                style={{
-                  width: "120px",
-                  height: "160px",
-                  margin: "10px 10px 10px 0",
-                  border: "1px solid transparent",
-                  borderRadius: "35%",
-                }}
+                className="Image_acteur"
                 src={movie.acteurs_image[4]}
                 alt={movie.acteurs_nom[4]}
               />

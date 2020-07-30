@@ -30,7 +30,7 @@ const Description_serie = () => {
           <Col>
             <iframe
               title={`Youtube vidéo of ${serie.nom}`}
-              width="940"
+              width="100%"
               height="528"
               src={serie.youtube}
               frameborder="0"
@@ -53,7 +53,7 @@ const Description_serie = () => {
           <Col>
             <div>
               <img
-                style={{ width: "300px", margin: "0 0 0 70px" }}
+                style={{ width: "22vw", margin: "0 0 0 70px" }}
                 src={serie.image}
                 alt={serie.alt}
               />

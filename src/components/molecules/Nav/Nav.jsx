@@ -21,7 +21,7 @@ const Nav = () => {
           </Col>
         </Row>
       </Container>
-      <Container>
+      <Container style={{ display: "flex-end" }}>
         <Row>
           <Col>
             <nav>
