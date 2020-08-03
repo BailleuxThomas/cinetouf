@@ -5,4 +5,5 @@ export const streamers = [
   "flachony",
   "SixenTv",
   "peyjeym",
+  "kc_adam",
 ];
