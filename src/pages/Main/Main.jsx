@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <>
       <Helmet>
-        <title>CineTouf 🐷</title>
+        <title>CineTom 🐷</title>
         <link rel="icon" type="image/png" href="logo.png" />
       </Helmet>
       <Container>
@@ -18,7 +18,7 @@ const Main = () => {
             </Badge>
             <p style={{ margin: "15px 0", color: "white" }}>
               Bienvenue sur <q style={{ color: "red" }}>Cine</q>
-              <q style={{ color: "yellow" }}>Touf</q> ici vous trouverez des
+              <q style={{ color: "yellow" }}>Tom</q> ici vous trouverez des
               films, des séries que j'ai visionné ainsi qu'une appréhension. Si
               vous regardez vers le menu à droite, vous trouverez des streamers
               que j'aime bien.
