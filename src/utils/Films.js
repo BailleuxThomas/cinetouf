@@ -5,7 +5,7 @@ export const Listmovie = [
     description:
       "Castor Troy, dangereux terroriste, est tombé dans le coma à la suite d'un affrontement avec Sean Archer, agent de la CIA. Grâce à une intervention chirurgicale, Archer prend le visage de Troy pour faire avouer au frère de ce dernier l'emplacement d'une bombe. Cependant Troy sort du coma et prend à son tour le visage d'Archer.",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/FaceOff_%281997_film%29_poster.jpg/220px-FaceOff_%281997_film%29_poster.jpg",
+      "https://fr.web.img3.acsta.net/medias/nmedia/18/97/55/80/20535753.jpg",
     alt: "Image du film",
     youtube: "https://www.youtube.com/embed/K-gncct2TX8",
     categorie: "Action, Thriller",
@@ -201,7 +201,7 @@ export const Listmovie = [
     image:
       "https://media.senscritique.com/media/000004859521/source_big/The_Social_Network_Bande_Originale.jpg",
     alt: "Image du film",
-    youtube: "https://www.youtube.com/embed/-kUJo_-Jvso",
+    youtube: "https://www.youtube.com/embed/K3Nss06OFMw",
     categorie: "Drame, Histoire",
     star: "10/10",
     exit_date: " 27 octobre 2010",
