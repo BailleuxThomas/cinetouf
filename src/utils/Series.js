@@ -87,7 +87,7 @@ export const Listserie = [
     description:
       "Pour protéger leur ville des dealers, les membres d'un club de motos sont prêts à tout.",
     image:
-      "https://pictures.betaseries.com/fonds/poster/2c15c000bb11737b1523702b5fe1c5e0.jpg",
+      "https://images.archambault.ca/images/PG/1688/1688337-gf.jpg",
     alt: "Image du film",
     youtube: "https://www.youtube.com/embed/eJXu1N_DC7E",
     categorie: "Action, Drame",
