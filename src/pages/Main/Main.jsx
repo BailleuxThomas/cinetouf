@@ -1,11 +1,14 @@
 import React from "react";
-import { Container, Row, Col, Badge } from "react-bootstrap";
+import { Container, Row, Col, Badge, Alert } from "react-bootstrap";
 import Touftouf from "./bbq_thomas.mp4";
 import { Helmet } from "react-helmet-async";
 
 const Main = () => {
   return (
     <>
+    <Alert variant="info">
+  <Alert.Heading className="text-center">Dernière mise à jour le 29/03/2021 à 23:30</Alert.Heading>
+  </Alert>
       <Helmet>
         <title>CineTom 🐷</title>
         <link rel="icon" type="image/png" href="logo.png" />
