@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Badge, Alert } from "react-bootstrap";
-import Touftouf from "/bbq_thomas.mp4";
+import Touftouf from "./bbq_thomas.mp4";
 import { Helmet } from "react-helmet-async";
 
 const Main = () => {
