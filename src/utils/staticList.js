@@ -1,9 +1,7 @@
 export const streamers = [
   "davidp",
-  "sardoche",
-  "tfblade",
-  "flachony",
-  "SixenTv",
-  "peyjeym",
-  "kc_adam",
+  "solary",
+  "ogaminglol",
+  "ogamingsc2",
+  "valorantesports2",
 ];
